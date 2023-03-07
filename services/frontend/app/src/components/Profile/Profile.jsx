@@ -14,6 +14,7 @@ export default function Profile() {
                     <img src={wave}>
                     </img>
                 </div>
+
                 <div className="profile-header-wrapper">
                     <div className="profile-picture-container">
                         <img src={profilePic}></img>
@@ -44,10 +45,18 @@ export default function Profile() {
                                 <MdOutlineMoreVert/>
                             </button>
                         </div>
-
                     </div>
-
                 </div>
+
+                <div className="social-media-wrapper">
+                    <i class="fa-brands fa-telegram" />
+                    <text className="grey-subtitle-text">
+                        @JessyJ
+                    </text>
+                    <i class="fa-brands fa-instagram" />
+                    <i class="fa-brands fa-facebook" />
+                </div>
+
 
 
             </div>

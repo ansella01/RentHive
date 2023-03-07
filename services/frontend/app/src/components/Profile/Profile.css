@@ -27,10 +27,14 @@
     padding:40px;
 }
 .white-background{
-    width:79%;
+    width:90%;
     height:auto;
     border-radius: 20px;
     background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* banner image styles */
@@ -52,7 +56,6 @@
 
 /* profile picture styles */
 
-
 .profile-picture-container{
     width:108px;
     height:108px;
@@ -69,6 +72,7 @@
     object-fit: cover;
 }
 
+/* wrappers */
 .name-age-gender-wrapper{
     grid-column: 1;
     display:flex;
@@ -91,9 +95,19 @@
 }
 
 .profile-header-wrapper{
+    width:80%;
     display: flex;
     padding:4px;
     gap:20px;
+}
+
+.social-media-wrapper{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:8px;
+    padding:12px;
 }
 
 .yellow-profile-button-container{
