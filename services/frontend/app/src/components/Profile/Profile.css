@@ -10,6 +10,12 @@
     font-weight: 500;
 }
 
+.grey-body-text{
+    font-size: 14px;
+    color: #4E4E4E;
+    font-weight: 500;
+}
+
 .black-subtitle-text{
     font-size: 16px;
     color: black;
@@ -37,6 +43,16 @@
     align-items: center;
 }
 
+/*-----------------------
+PROFILE HEADER
+-----------------------*/
+/* profile header wrapper */
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
 /* banner image styles */
 
 .banner-container{
@@ -45,6 +61,7 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow:hidden;
+    z-index: 1;
 }
 
 .banner-container img{
@@ -72,7 +89,24 @@
     object-fit: cover;
 }
 
-/* wrappers */
+/* profile header main info and buttons */
+.profile-header-main-info-and-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+    z-index: 2;
+    margin-top: -16px;
+
+}
+
+.profile-header-top-row{
+    width:80%;
+    display: flex;
+    padding:4px;
+    gap:20px;
+}
+
 .name-age-gender-wrapper{
     grid-column: 1;
     display:flex;
@@ -94,20 +128,41 @@
     grid-template-columns: auto 1fr auto;
 }
 
-.profile-header-wrapper{
+.profile-header-contact-details{
     width:80%;
-    display: flex;
-    padding:4px;
-    gap:20px;
-}
-
-.social-media-wrapper{
-    width:100%;
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    gap:8px;
+    gap:20px;
     padding:12px;
+}
+
+.social-media-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.profile-header-description{
+    width: 80%;
+    padding: 8px;
+}
+
+.profile-header-mutuals-section{
+    width: 80%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mutual-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    gap: 4px;
 }
 
 .yellow-profile-button-container{
