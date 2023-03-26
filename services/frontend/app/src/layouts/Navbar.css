@@ -10,9 +10,18 @@
     display: flex;
     align-items: center;
   }
-  
-  .logo img {
-    height: 40px;
+
+  .beelogo {
+    height: 48px;
+    min-width: 40px;
+  }
+
+  .renthivelogo {
+    height: 34px;
+    min-width:123px;
+    margin-top:8px;
+    margin-left:4px;
+    margin-right: 32px;
   }
   
   .search-bar {
@@ -21,8 +30,8 @@
 
   .search-bar i {
     position: absolute;
-    left: 235px;
-    top: 30px;
+    left: 255px;
+    top: 35px;
     transform: translateY(-50%);
   }
 
