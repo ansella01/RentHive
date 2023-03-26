@@ -10,13 +10,12 @@ export default function Home() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          height:"100vh"
+          height:"150vh"
           }}>
           <div 
           style={{
             background:"#fef9ec",
             paddingLeft: "32px",
-            paddingBottom:"32px",
             borderRadius:"16px",
             width:"1480px",
             height: "147px",
@@ -28,18 +27,20 @@ export default function Home() {
           </div>
           <div style={{
             background:"#ffffff",
-            paddingTop: "40px",
             paddingLeft: "40px",
-            paddingBottom: "40px",
+            paddingBottom: "80px",
             borderRadius:"16px",
             width:"1480px",
             height: "723px",
             marginBottom:"42px"
-          }}><NetworkMap/></div>
+          }}>
+            <h1>Recommended Network Map</h1>
+            <NetworkMap/>
+          </div>
+
           <div style={{
             background:"#ffffff",
             paddingLeft: "40px",
-            paddingBottom: "40px",
             borderRadius:"16px",
             width:"1480px",
             height: "187px"
